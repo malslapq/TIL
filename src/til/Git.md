@@ -1,15 +1,14 @@
 ## Git ? GitHub?
+
 <img src="https://blog.kakaocdn.net/dn/pbPzJ/btqDuqUUNBt/2nQHXRRCgz7qDUpt7K8fv1/img.png" style=width:30%></img>
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeuksHz%2Fbtrkikzsvnn%2Fp5AdNUCmxGuZbnu4Vq98Y0%2Fimg.webp" style=width:30%></img>
+
 ### Git 
 
  형상 관리 도구 중 하나!    
  형상관리 도구란 소프트웨어 프로젝트에서 나오는 결과물을 관리하는 소프트웨어라고 한다..? ~~응? 뭐라고?~~  
 자 다시 간단하게 말해보자면 우리가 작성한 코드들의 변화를 기록하고 관리해 누가, 어디를, 언제, 어떻게, 수정했는지 쉽게 파악하고 버전 별로 관리할 수 있다.
 _한마디로 협업 필수 툴!_
-
-
-
 
 ### GitHub
 
