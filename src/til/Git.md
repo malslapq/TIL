@@ -1,7 +1,7 @@
 ## Git ? GitHub?
 <img src="https://blog.kakaocdn.net/dn/pbPzJ/btqDuqUUNBt/2nQHXRRCgz7qDUpt7K8fv1/img.png" style=width:30%></img>
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeuksHz%2Fbtrkikzsvnn%2Fp5AdNUCmxGuZbnu4Vq98Y0%2Fimg.webp" style=width:30%></img>
-###Git 
+### Git 
 
  형상 관리 도구 중 하나!    
  형상관리 도구란 소프트웨어 프로젝트에서 나오는 결과물을 관리하는 소프트웨어라고 한다..? ~~응? 뭐라고?~~  
@@ -11,12 +11,12 @@ _한마디로 협업 필수 툴!_
 
 
 
-###GitHub
+### GitHub
 
 원격 저장소를 이용해 언제 어디서든 git을 사용하는 협업 프로젝트를 진행할 수 있게 도와주는 웹 호스팅 플랫폼이다. _git과 github는 엄연히 다른것!_
 
 
-###그렇다면 Git은 어떻게 사용할까?
+### 그렇다면 Git은 어떻게 사용할까?
  
 - git을 사용하기 위해선 당연하게 git을 설치돼있어야 한다. <a href="https://git-scm.com/downloads">Git Download</a> 
 git을 사용하기 위해 터미널에서 해당 경로에 git init으로 git을 초기화 시켜주고 git config --global user.name "", git config --global user.email ""으로 사용자 정보를 입력한다. (git config --list로 확인할 수 있음)
@@ -34,7 +34,7 @@ git을 사용하기 위해 터미널에서 해당 경로에 git init으로 git�
 - git을 통해 이렇게 코드들을 추적 관리 하고 협업을 진행할 때에는 보통 원격 저장소에서 clone을 받아와 로컬 저장소에서 개인단위 개발을 진행하게 된다.
 
 
-###Git에서 자주 사용하는 명령어
+### Git에서 자주 사용하는 명령어
 
 - git init : git 초기화(생성)
 - git clone path : 저장소를 복제, 복사해 온다. path에 가져올 저장소의 경로를 입력해줘야함
@@ -50,7 +50,7 @@ git을 사용하기 위해 터미널에서 해당 경로에 git init으로 git�
 - git pull remoteName branchName : 원격 저장소의 해당 branch의 내용을 fetch로 가져와 merge까지 실행(원격 저장소의 소스를 가져온 뒤 로컬 소스와 합침) 
 - git fetch remoteName : 원격저장소의 소스를 가져옴
 
-###GitHub를 사용하는 방법은?
+### GitHub를 사용하는 방법은?
 
 - 먼저 Git과 GitHub가 서로 접근할 수 있도록 SSH Key를 발급해줘야 한다. (Https로도 접근할 수 있으나 보안상 좋지 않음!)
   - Window 기준 gitbash를 열고 ssh-keygen -t rsa 입력 (-t rsa 암호화 타입 지정) 입력해서 ssh key 생성
