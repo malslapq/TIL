@@ -58,4 +58,4 @@ git을 사용하기 위해 터미널에서 해당 경로에 git init으로 git�
 - GitHub repository를 만들고 ssh 주소를 git과 연결한다음 git에서 push할 때 GitHub에 있는 repository로 push하면 올라가 있다! 두둥!!
 
 
-GitHub로 협업을 제대로 해본적이 없기 때문에.. 아주아주 잘 설명이 돼있는 0seo8님의 글을 참고하길 바란다. <a href="https://velog.io/@0seo8/Git-GitHbub%EB%A1%9C-%ED%98%91%EC%97%85%ED%95%98%EA%B8%B0">0seo8님의 [Git]GitHbub로 협업하기</a>
+GitHub로 협업을 제대로 해본적이 없기 때문에.. 아주아주 잘 설명이 돼있는 0seo8님의 글을 참고하길 바란다. <a href="https://velog.io/@0seo8/Git-GitHbub%EB%A1%9C-%ED%98%91%EC%97%85%ED%95%98%EA%B8%B0">0seo8님의 [Git]GitHbub로 협업하기!</a>
