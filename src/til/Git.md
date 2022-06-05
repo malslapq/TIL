@@ -35,19 +35,23 @@ git을 사용하기 위해 터미널에서 해당 경로에 git init으로 git�
 
 ### Git에서 자주 사용하는 명령어
 
-- git init : git 초기화(생성)
-- git clone path : 저장소를 복제, 복사해 온다. path에 가져올 저장소의 경로를 입력해줘야함
-- git checkout -t remotePath/branchName : 원격 브랜치 선택
-- git branch name : 브랜치 생성, name에 생성할 이름 입력
-- git branch -r : 원격 브랜치 목록 보기
-- git branch -a : 로컬 브랜치 목록 보기
-- git checkout branchName : 브랜치 전환
-- git branch -d name : 로컬 브랜치 삭제하기, name에 삭제 할 브랜치 이름 입력
-- git add filename : Staging에 수정된 파일 추가하기, filename에 수정된 파일 이름 입력
-- git commit -m "comment" : Commit 시 해당 commit에 대한 설명 추가, comment에 설명 입력
-- git push remoteName branchName : add->commit 한 코드, 파일 원격 저장소로 보내기
-- git pull remoteName branchName : 원격 저장소의 해당 branch의 내용을 fetch로 가져와 merge까지 실행(원격 저장소의 소스를 가져온 뒤 로컬 소스와 합침) 
-- git fetch remoteName : 원격저장소의 소스를 가져옴
+- `git add 스테이징에 올릴 파일` : 파일을 스테이지에 올림
+- `git reset HEAD file` : 스테이징에 add된 파일을 삭제, 파일명이 없을 경우 전체 취소
+- `git remote -v` : 연결된 원격 저장소를 확인
+- `git remote -add origin 원격저장소URL` : 원격 저장소 추가 
+- `git init` : git 초기화(생성)
+- `git clone path` : 저장소를 복제, 복사해 온다. path에 가져올 저장소의 경로를 입력해줘야함
+- `git checkout -t remotePath/branchName` : 원격 브랜치 선택
+- `git branch name` : 브랜치 생성, name에 생성할 이름 입력
+- `git branch -r` : 원격 브랜치 목록 보기
+- `git branch -a` : 로컬 브랜치 목록 보기
+- `git checkout branchName` : 브랜치 전환
+- `git branch -d name` : 로컬 브랜치 삭제하기, name에 삭제 할 브랜치 이름 입력
+- `git add filename` : Staging에 수정된 파일 추가하기, filename에 수정된 파일 이름 입력
+- `git commit -m "comment"` : Commit 시 해당 commit에 대한 설명 추가, comment에 설명 입력
+- `git push remoteName branchName` : add->commit 한 코드, 파일 원격 저장소로 보내기
+- `git pull remoteName branchName` : 원격 저장소의 해당 branch의 내용을 fetch로 가져와 merge까지 실행(원격 저장소의 소스를 가져온 뒤 로컬 소스와 합침) 
+- `git fetch remoteName` : 원격저장소의 소스를 가져옴
 
 ### GitHub를 사용하는 방법은?
 
