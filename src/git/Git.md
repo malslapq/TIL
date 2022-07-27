@@ -35,11 +35,11 @@ git을 사용하기 위해 터미널에서 해당 경로에 git init으로 git�
 
 ### Git에서 자주 사용하는 명령어
 
-- `git add 스테이징에 올릴 파일` : 파일을 스테이지에 올림
+- `git init` : git 초기화(생성)
+- `git add 스테이징에 올릴 파일` : 파일을 스테이지에 올림, 수정한 파일을 추가할 땐 -u 하면 됌
 - `git reset HEAD file` : 스테이징에 add된 파일을 삭제, 파일명이 없을 경우 전체 취소
 - `git remote -v` : 연결된 원격 저장소를 확인
-- `git remote -add origin 원격저장소URL` : 원격 저장소 추가 
-- `git init` : git 초기화(생성)
+- `git remote add origin 원격저장소URL` : 원격 저장소 추가 
 - `git clone path` : 저장소를 복제, 복사해 온다. path에 가져올 저장소의 경로를 입력해줘야함
 - `git checkout -t remotePath/branchName` : 원격 브랜치 선택
 - `git branch name` : 브랜치 생성, name에 생성할 이름 입력
